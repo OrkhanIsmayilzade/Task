@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box1{
+    position: relative;
+    padding:520px;
+    color: white;
+}
+#box2{
+    position: relative;
+    bottom: 1000px;
+    color: white;
+    left: 60px;
+}
+
+#box3{
+    display: flex;
+}
