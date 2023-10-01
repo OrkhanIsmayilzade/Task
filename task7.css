@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box2{
+    color:#224957 ;
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+#box3{
+    text-align: center;
+    color: #224957;
+    
+}
+
+#content{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 220px;
+    top: 40px;
+   
+
+}
+
+#box4{
+    text-align: center;
+    
+   
+    
+}
+
+#box5{
+    text-align: center;
+   
+}
+#box6{
+    position: relative;
+    left: 40px;
+}
+#box7{
+    
+    display: flex;
+    position: relative;
+    left: 180px;
+    bottom: 20px;
+}
+
+#box8{
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    border: 2px;
+    background-color:#20DF7F;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    padding-top: 10px;
+    
+
+   
+}
