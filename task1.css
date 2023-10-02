@@ -1,0 +1,55 @@
+#box1{
+    color: yellow;
+    position: relative;
+    left: 70px;
+}
+
+#box2{
+    color: yellow;
+    position: relative;
+    left: 1100px;
+    bottom: 60px;
+}
+
+#box3{
+    color: yellow;
+    position: relative;
+    left: 1250px;
+    bottom: 116px;
+}
+
+#box4{
+    color: yellow;
+    position: relative;
+    left: 1400px;
+    bottom: 215px;
+}
+
+#box5{
+    color: yellow;
+    position: relative;
+    left: 1550px;
+    bottom: 275px;
+}
+
+#box6{
+    height: 20px;
+    width: 600px;
+    color: yellow;
+    text-align: center;
+    position: relative;
+    left: 600px;
+}
+
+#box7{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    left: 850px;
+    padding: 10px;
+    top: 170px;
+}
