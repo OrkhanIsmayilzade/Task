@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    background-color: #1D809F;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+}
+
+#box1 {
+    /* height: 320px;
+    width: 220px; */
+    border: 2px white;
+
+}
+
+#circle {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 32px;
+
+}
+
+#content1 {
+    width: 100%;
+    text-align: center;
+}
+
+#contain1 {
+    top: 30px;
+}
+
+#contain2 {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    flex-wrap: wrap;
+
+}
+
+#svg1 {
+    position: relative;
+    top: 25px;
+}
+
+#text {
+    text-align: center;
+    font-size: 30px;
+}
+
+#main-content {
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 30px;
+
+}
+.column{
+    width: 22%;
+    margin-bottom: 10px;
+}
+
+/* #cards1{
+    height: 400px;
+    width: 600px;
+    background-image: url(/pictures/portfolio-1.jpg);
+} */
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .column{
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .column{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .column{
+        width: 100%;
+    }
+}
+
+
