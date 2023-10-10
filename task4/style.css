@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    padding-top: 10px;
+    background-color: #F3F2F1;
+   
+}
+.natural{
+    display: flex;
+    align-content: center;
+    
+   
+}
+
+.natural1-content2{
+    margin: 20px;
+    font-size: 1.0525rem;
+}
+
+.home{
+    display: flex;
+    position: relative;
+    left: 350px;
+    
+}
+
+.home li{
+   list-style: none;
+   margin: 20px;
+   font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.natural1-content1 img{
+    height: 48px;
+    width: 58px;
+}
+
+.container2{
+    margin: 20px;
+}
+
+.container2 h3{
+    text-align: center;
+    font-size: 2.9376rem;
+}
+
+.boxes{
+    display: flex;
+    gap: 30px;
+    margin: 100px;
+   justify-content: center;
+   
+    
+}
+
+.box1{
+    height: 315px;
+    width: 415px;
+    /* border: 1px black solid; */
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.box1-h{
+    margin: 30px;
+}
+
+
+.box2{
+    height: 315px;
+    width: 415px;
+    /* border: 1px black solid; */
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    text-align: center;
+}
+.box3{
+    height: 315px;
+    width: 415px;
+    /* border: 1px black solid; */
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.heart{
+    height: 120px;
+}
+.box1 h5{
+    font-size: 17px;
+    padding: 20px;
+}
+.box1 p{
+    font-size: 17px;
+}
+
+.smile{
+    height: 120px;
+}
+.sun{
+    height: 120px;
+}
+
+.box2 h5{
+    font-size: 17px;
+    padding: 20px;
+}
+.box2 p{
+    font-size: 17px;
+}
+
+.box3 h5{
+    font-size: 17px;
+    padding: 20px;
+}
+.box3 p{
+    font-size: 17px;
+}
+
+.container3{
+    margin: 0 270px 0 270px;
+    height: 544px;
+    width: 1300px;
+    background-color: #F2F2F2;
+}
+
+.container3{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 h4{
+    font-size: 40px;
+}
+
+.container3 p{
+    font-size: 30px;
+}
+
+
+
+
+
