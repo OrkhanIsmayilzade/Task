@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/JS/task(to do list)/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="rash">
+            <h1>RashFlix</h1>
+        </div>
+        <div class="links">
+            <li>Home</li>
+            <li>About</li>
+            <li>Films</li>
+        </div>
+
+        <div class="button">
+            <button id="add">ADD</button>
+        </div>
+
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Image</th>
+                <th scope="col">Name</th>
+                <th scope="col">Genre</th>
+                <th scope="col">IMDB</th>
+                <th scope="col">Year</th>
+                <th scope="col">Description</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <div class="modal-container">
+        <h1 class="add-film">Add Film</h1>
+        <form action="">
+            <input type="text" placeholder="image">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="imdb">
+            <input type="text" placeholder="year">
+            <input type="text" placeholder="Description">
+        </form>
+
+        <div class="modal-add-class">
+            <button id="modal-add-button">Add</button>
+        </div>
+        <div class="canup">
+            <div class="modal-cancel-class">
+                <button id="modal-cancel-button">Cancel</button>
+            </div>
+            <div class="modal-uptade-class">
+                <button id="modal-uptade-button">Uptade</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="todolist.js"></script>
+</body>
+
+</html>
