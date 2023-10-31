@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 50px;
+    width: 100%;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button{
+    margin: 10px;
+    height: 30px;
+    
+}
+
+.container2{
+    height: 150px;
+    width: 500px;
+    border: 3px solid blue;
+    display: none;
+    
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+}
+
+.close{
+    color: red;
+}
+
+.save{
+    color: green;
+    
+}
+
+
+
